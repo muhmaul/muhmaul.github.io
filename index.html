@@ -49,7 +49,7 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/Desain tanpa judul.png" alt="Muhammad Maulana" width="200" class="rounded-circle img-thumbnail" data-aos="flip-right" />
+      <img src="img/Desain tanpa judul.png" alt="Muhammad Maulana" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Muhammad Maulana</h1>
       <p class="lead">Bachelor of Civil Engineer | Master of Ceremony</p>
       <p class="lead">Email : muhammadmaulana@gmail.com</p>
@@ -72,13 +72,13 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-5" data-aos="fade-right">
+          <div class="col-md-5">
             <p>
               Saya merupakan lulusan dari Program Studi S1 Teknik Sipil di Universitas Lambung Mangkurat dengan masa studi 3,5 Tahun. Selama berkuliah saya aktif dalam organisasi Himpunan Mahasiswa Sipil FT ULM dan menjadi Instruktur
               Laboratorium Hidraulika FT ULM.
             </p>
           </div>
-          <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+          <div class="col-md-5">
             <p>Saya menyukai sesuatu yang baru. Kemampuan yang saya miliki adalah mengoperasikan AutoCAD, Microsoft Office, dan Canva. selain itu saya mampu mengelola dokumen, berkomunikasi dengan baik, dan Public Speaking yang mumpuni.</p>
           </div>
         </div>
@@ -103,7 +103,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-3">
-            <div class="card" data-aos="flip-right" data-aos-duration="500">
+            <div class="card">
               <img src="img/3.png" class="card-img-top" alt="experience3" />
               <div class="card-body">
                 <p class="card-text">
@@ -114,7 +114,7 @@
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="100">
+            <div class="card">
               <img src="img/1.png" class="card-img-top" alt="experience1" />
               <div class="card-body">
                 <p class="card-text">Menjadi MC (Master of Ceremony) di acara Dies Natalis dan Wedding serta menjadi Moderator pada suatu kegiatan.</p>
@@ -122,7 +122,7 @@
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="200">
+            <div class="card">
               <img src="img/2.png" class="card-img-top" alt="experience2" />
               <div class="card-body">
                 <p class="card-text">Melakukan Kegiatan Bakti sosial seperti Membersihkan sungai dan menghibur anak-anak di sekolah</p>
@@ -130,7 +130,7 @@
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="300">
+            <div class="card">
               <img src="img/4.png" class="card-img-top" alt="experience4" />
               <div class="card-body">
                 <p class="card-text">Menjadi Narasumber dalam sebuah kegiatan.</p>
@@ -298,12 +298,6 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       const galleryImage = document.querySelectorAll(".gallery-img");
-
-      galleryImage.forEach((img, i) => {
-        img.dataset.aos = "fade-down";
-        img.dataset.aosDelay = i * 100;
-        img.dataset.aosDuration = 800;
-      });
 
       AOS.init({
         once: true,
